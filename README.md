@@ -16,7 +16,10 @@ Este proyecto es un webhook para enviar mensajes de WhatsApp usando la API de Tw
    ```
 2. Instala las dependencias:
    ```bash
+
    npm install
+   pnpm install
+
    ```
 
 3. Crea un archivo `.env` en la raíz con las siguientes variables:
@@ -50,5 +53,3 @@ sendWhatsAppMessage('Estado', '2025-05-07', '16:00')
 - Asegúrate de tener configurado el número de WhatsApp en Twilio y el Content SID.
 - No compartas tu archivo `.env`.
 
-## Licencia
-MIT
